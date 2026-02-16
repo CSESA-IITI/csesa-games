@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GameFinity</title>
     <link rel="icon" href="../assests/icon.png" />
-    <link rel="stylesheet" href="../Flappybird/flappbird.css" />
+    <link rel="stylesheet" href="SnakeGame.css" />
   </head>
   <body>
-     <nav> 
+    <nav> 
       <div class="left">
         <a href="../home/home.html">
           <img class = "invert" src="../assests/nav.png" height="70px" />
@@ -27,29 +27,24 @@
         </ul>
       </div>
     </nav>
-    <br /><br />
-
-    <main class="container">
-      <div id="game">
-        <div id="pipe1" class="obs"></div>
-        <div id="pipe2" class="obs"></div>
-        <div id="bird">
-        <div id="birdHitbox"></div>
-        <img src="../assests/birdf.png">
-        </div>
-        <br>
-        <div id="score">SCORE: <span id="src">0</span></div>
+    <main class="body">
+      <div class="content">
+        <span class="scoreBox">YOUR SCORE: 0</span>
+        <div class="snakeHeader">PRESS ARROW KEYS TO MOVE</div>
+        <div class="board"></div>
       </div>
     </main>
-    <script src="flappybird.js"></script>
 
     <footer>
       <div class="container2">
-      <div class = "credits">Thank you for looking at this masterpiece for flappy bird!</div>
-      <div class = "credits">The game was specifically made by :</div>
-      <div class = "credits">Eklavya and Darshik</div>
-      <div class="credits">Hope you liked it!</div>
+        <div class="credits">
+          Thank you for looking at this masterpiece for Snake Game!
+        </div>
+        <div class="credits">The game was specifically made by :</div>
+        <div class="credits">Eklavya and Darshik</div>
+        <div class="credits">Hope you liked it!</div>
       </div>
     </footer>
+    <script src="SnakeGame.js"></script>
   </body>
 </html>
